@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>init_net.pb</file>
+        <file>predict_net.pb</file>
+    </qresource>
+</RCC>
