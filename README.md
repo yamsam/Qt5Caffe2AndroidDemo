@@ -6,10 +6,11 @@ simple AI demo App for android written by Qt5 and Caffe2.
 
 Caffe2 is a powerful deep learning framework and Qt is also great GUI toolkit.
 Fortunately they both support mobile and are written by c++.
-My idea is just simple, "If i can mix them, i could make a deep learning app for android
+My idea is just simple, "If I can mix them, I could make a deep learning app for android
 by writing c++ only !"
 
 ### Demo
+![result](https://github.com/yamsam/Qt5Caffe2AndroidDemo/blob/media/demo.gif)
 
 ### Usage
 When you touch your display, this program will crop the center part of the display image and
@@ -17,7 +18,7 @@ give it to the neural network for classification and then show the result messag
 
 ### Features
 * Use Caffe2, deep learning framework to classify images 
-* Use QtQuick Camera to capture a display image
+* Use QtQuick Camera and QAbstractVideoFilter to capture a display image
 * Use Squeeze Net, a light neural network for mobile, trained by 1000 class imagenet
 * You can make your AI App by writing only c++
 
