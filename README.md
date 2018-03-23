@@ -6,8 +6,9 @@ simple AI demo App for android written by Qt5 and Caffe2.
 
 Caffe2 is a powerful deep learning framework and Qt is also great GUI toolkit.
 Fortunately they both support mobile and are written by c++.
-My idea is just simple, "If I can mix them, I could make a deep learning app for android
-by writing c++ only !"
+My idea is just simple, "If I can mix them, I could make a deep learning app for android by writing c++ only !"
+
+[Japanese README](/README_jp.md)
 
 ### Demo
 ![result](https://github.com/yamsam/Qt5Caffe2AndroidDemo/blob/media/demo.gif)
