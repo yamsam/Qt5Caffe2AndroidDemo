@@ -24,11 +24,11 @@ give it to the neural network for classification and then show the result messag
 
 ### Build
 1) Prepare Qt5(android_armv7) and Qt Creator 
- - tested with with Qt 5.10.1, qt creatror 4.4.1 on windows 10 and ubuntu 16.04
+   - tested with with Qt 5.10.1, qt creatror 4.4.1 on windows 10 and ubuntu 16.04
 2) Build Caffe2 android library
- - latest caffe2 makes large libraries, its over 600MB, so I can't upload them into GitHub. You can build your own caffe2 libraries or use my build here (https://drive.google.com/drive/folders/1dqYYQkEszpO6efFXN4blUEaRR8BgDTYt?usp=sharing)  
- - put them into caffe2lib directory under this project
-3) Compile with Qt5 android_armv7 kit and Deploy it into your smartphone
+   - latest caffe2 makes large libraries now, its over 600MB, so I can't upload them into GitHub. You can build your own caffe2 libraries or use my build binary here (https://drive.google.com/drive/folders/1dqYYQkEszpO6efFXN4blUEaRR8BgDTYt?usp=sharing)  
+   - put them into caffe2lib directory under this project directory
+3) Compile with Qt5 android_armv7 kit and Deploy it into your android
 
 ### Related Projects
 This project is based on the following projects.
