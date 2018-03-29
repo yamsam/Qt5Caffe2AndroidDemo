@@ -43,6 +43,9 @@ android{
     -Wl,--whole-archive \
     -lcaffe2 \
     -Wl,--no-whole-archive \
+    -lcaffe2_protos \
+    -lonnx \
+    -lonnx_proto \
     -lpthreadpool \
     -lprotobuf \
     -lnnpack \
